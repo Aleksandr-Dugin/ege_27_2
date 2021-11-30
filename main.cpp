@@ -2,7 +2,12 @@
 
 using namespace std;
 
+void minimum_sum_distance(){
+	
+}
+
+
 int main(){
-	cout << "Hello world" << endl;
+	minimum_sum_distance();
 	return 0;
 }

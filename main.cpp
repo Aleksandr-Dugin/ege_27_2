@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <vector>
 using namespace std;
 
 void minimum_sum_distance(){
@@ -12,10 +12,20 @@ void minimum_sum_distance(){
 		6. найти минимальную сумму
 	
 	*/	
+
+	int N;
+	cin >> N;
+	vector<int> numbers(N);
+	for (int i = 0; i < N; i++){
+		cin >> numbers[i]; 
+	}
+
+
 }
 
 
 int main(){
+
 	minimum_sum_distance();
 	return 0;
 }
